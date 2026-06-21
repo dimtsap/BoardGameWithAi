@@ -150,7 +150,7 @@ namespace Game2048.UI
                 MessageBox.Show("Congratulations! You won!");
             }
 
-            //this.Board?.AddRandomTiles();
+            this.Board?.AddRandomTiles();
 
             this.UpdateUI();
             if (!this.Board.CanMoveHorizontally() && !this.Board.CanMoveVertically())

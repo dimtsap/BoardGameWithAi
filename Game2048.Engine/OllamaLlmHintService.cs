@@ -16,7 +16,7 @@ namespace Game2048.Engine
             this.client = new HttpClient();
             this.client.BaseAddress = new Uri("http://127.0.0.1:11434");
             this.client.Timeout = TimeSpan.FromMinutes(2);
-            this.modelName = "llama2:latest"; //"qwen3:8b";            
+            this.modelName = "llama2:latest";            
         }
 
         public async Task<(string, string)> GetHintAsync(int?[,] board)

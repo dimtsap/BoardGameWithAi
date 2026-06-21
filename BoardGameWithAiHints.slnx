@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/Solution Items/">
     <File Path=".gitignore" />
+    <File Path="README.md" />
   </Folder>
   <Project Path="Game2048.Engine/Game2048.Engine.csproj" />
   <Project Path="Game2048.UI/Game2048.UI.csproj" />
