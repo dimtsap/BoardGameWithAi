@@ -12,7 +12,7 @@ After each successful move, a new tile with a value of '2' or '4' is added to an
 The player can continue to make moves until there are no valid moves left or the player reaches the 2048 tile.
 
 
-A hint button is added to prompt an LLM to analyze the current game state and suggest the best possible move. The AI uses a heuristic approach to evaluate the board and determine the best next move for the player. 
+An hint button is added, which prompts an LLM to analyze the current game state and suggest the best possible move. The AI uses a heuristic approach to evaluate the board and determine the best next move for the player. 
 
 ## Installation instructions
 The game requires .NET 10.0 or later to run. 
